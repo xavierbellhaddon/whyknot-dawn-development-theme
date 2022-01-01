@@ -1,0 +1,217 @@
+{
+  "sections": {
+    "16409340524055311b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-illustration.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1640935158da55d422": {
+      "type": "rich-text",
+      "blocks": {
+        "1640935158023be2d0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1640935158023be2d0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Products",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1640935158023be2d0-0",
+        "1640935158023be2d0-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1640919130431b8ef5": {
+      "type": "image-with-text",
+      "blocks": {
+        "16409191300bedd445-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who We Are",
+            "heading_size": "h1"
+          }
+        },
+        "16409191300bedd445-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WhyKnot Naturals is a small, Black-owned business that specializes in all-natural hair and body care products. We cater to hair of all textures and types; whether yours is natural, processed, color-treated, or worn in a protective style, you can rest assured that we have something just for you.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16409191300bedd445-0",
+        "16409191300bedd445-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image-1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "1640935251ba27cfda": {
+      "type": "rich-text",
+      "blocks": {
+        "16409352516b407c55-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Testimonials",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "16409352516b407c55-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1640935188f3f5fc69": {
+      "type": "multicolumn",
+      "blocks": {
+        "16409351881557a7ab-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16409351881557a7ab-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16409351881557a7ab-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16409351881557a7ab-0",
+        "16409351881557a7ab-1",
+        "16409351881557a7ab-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16409193350a0643c0": {
+      "type": "image-with-text",
+      "blocks": {
+        "1640919335c37186c2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shipping and Delivery",
+            "heading_size": "h1"
+          }
+        },
+        "1640919335c37186c2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're so excited that you decided to shop with us, and we're committed to making sure that all of our customers receive their orders in a timely manner. That being said, while we would love for our turnaround to be as expeditious as Amazon's, we're still a small business. We make our products in small batches to ensure that, when they reach you, they haven't been shelved for extended periods of time. Consequentially, most orders will be packaged and shipped within five to seven business days. We greatly appreciate your patronage and understanding, and thank you from the bottom of our hearts.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1640919335c37186c2-0",
+        "1640919335c37186c2-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image-2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "16409688740af9094c": {
+      "type": "rich-text",
+      "blocks": {
+        "1640968874d146cbaa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1640968874d146cbaa-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1640934099c969db03": {
+      "type": "contact-form",
+      "settings": {
+        "heading": ""
+      }
+    }
+  },
+  "order": [
+    "16409340524055311b",
+    "1640935158da55d422",
+    "1640919130431b8ef5",
+    "1640935251ba27cfda",
+    "1640935188f3f5fc69",
+    "16409193350a0643c0",
+    "16409688740af9094c",
+    "1640934099c969db03"
+  ]
+}
