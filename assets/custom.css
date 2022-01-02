@@ -9,7 +9,7 @@
 
 .header__icon, 
 .header__heading-link .h2,
-.header__heading-link .h2:hover, 
+.header__heading-link:hover .h2,
 .header__menu-item, 
 .header__menu-item:hover, 
 .header__active-menu-item {
