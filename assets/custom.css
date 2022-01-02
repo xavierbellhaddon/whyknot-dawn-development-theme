@@ -1,0 +1,16 @@
+.header-wrapper {
+    background-color: #121212;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__icon, 
+.header__heading-link .h2, 
+.header__menu-item, 
+.header__menu-item:hover, 
+.header__active-menu-item {
+    color: #ffffff;
+}
