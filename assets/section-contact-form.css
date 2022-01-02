@@ -41,3 +41,36 @@
 .grecaptcha-badge {
   visibility: hidden;
 }
+
+/* custom CSS below */
+
+.button {
+  background: linear-gradient(to left, #ffffff 50%, #e4743d 50%);
+  background-position: right bottom;
+  background-size: 200% 100%;
+  color: #e4743d;
+  transition: all 0.2s ease-in;
+}
+
+.button:not([disabled]):hover,
+.shopify-challenge__button:hover,
+.customer button:hover {
+  background-position: left bottom;
+  color: #ffffff;
+  transition: all 0.2s ease-in;
+}
+
+.button, 
+.button:not([disabled]):hover,
+.shopify-challenge__button:hover,
+.customer button:hover 
+{
+  border: 2px solid #e4743d;
+  box-shadow: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact__button .button {
+  width: 100%;
+}
