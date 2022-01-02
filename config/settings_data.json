@@ -1,8 +1,8 @@
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#a67d56",
-    "colors_accent_2": "#f59332",
+    "colors_accent_1": "#a17e5e",
+    "colors_accent_2": "#e4743d",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
@@ -23,7 +23,7 @@
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
-          "show_line_separator": true,
+          "show_line_separator": false,
           "enable_sticky_header": true
         }
       },
