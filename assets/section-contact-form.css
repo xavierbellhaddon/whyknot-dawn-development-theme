@@ -45,10 +45,10 @@
 /* custom CSS below */
 
 .button {
-  background: linear-gradient(to left, #ffffff 50%, #e4743d 50%);
+  background: linear-gradient(to left, #ffffff 50%, #121212 50%);
   background-position: right bottom;
   background-size: 200% 100%;
-  color: #e4743d;
+  color: #121212;
   transition: all 0.2s ease-in;
 }
 
@@ -65,7 +65,7 @@
 .shopify-challenge__button:hover,
 .customer button:hover 
 {
-  border: 2px solid #e4743d;
+  border: 2px solid #121212;
   box-shadow: none;
   font-weight: 600;
   text-transform: uppercase;
