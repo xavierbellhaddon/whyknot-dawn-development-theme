@@ -37,10 +37,24 @@
 .button:not([disabled]):hover,
 .shopify-challenge__button:hover,
 .customer button:hover {
-    border: 2px solid #121212;
+    border: 0.3rem solid #121212;
     box-shadow: none;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.field__input {
+    border: 1px solid #929292;
+    box-shadow: none;
+}
+
+.field__input:hover,
+.field__input:focus {
+    box-shadow: 0 0 0 .1rem #929292;
+}
+
+.field__label {
+    color: #b6b6b6;
 }
 
 .contact__button .button {
