@@ -46,3 +46,15 @@
 .contact__button .button {
     width: 100%;
 }
+
+.track-order {
+    display: flex;
+    position: relative;
+}
+
+.track-order__input {
+    /* border: 2px solid #121212; */
+    /* border-radius: 0; */
+    /* height: 4.5rem; */
+    margin-right: 1rem;
+}
