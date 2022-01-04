@@ -45,17 +45,21 @@
     text-transform: uppercase;
 }
 
-.field__input {
+.field__input,
+.customer .field input {
     border: 1px solid #929292;
     box-shadow: none;
 }
 
 .field__input:hover,
-.field__input:focus {
+.field__input:focus,
+.customer .field input:hover,
+.customer .field input:focus {
     box-shadow: 0 0 0 .1rem #929292;
 }
 
-.field__label {
+.field__label,
+.customer .field label {
     color: #b6b6b6;
 }
 
