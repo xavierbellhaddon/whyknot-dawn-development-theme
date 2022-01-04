@@ -3,7 +3,7 @@
     "16409340524055311b": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-illustration.jpg",
+        "image": "shopify:\/\/shop_images\/banner-illustration.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
