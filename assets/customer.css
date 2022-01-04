@@ -752,3 +752,10 @@ li[data-address] > h2 {
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
 }
+
+/* custom CSS below */
+
+.login a[href='#recover'] {
+  margin-left: auto;
+  margin-right: auto;
+}
