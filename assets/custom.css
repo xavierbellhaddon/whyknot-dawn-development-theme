@@ -17,7 +17,8 @@
 }
 
 
-.button {
+.button,
+.customer button {
     background: linear-gradient(to left, #ffffff 50%, #121212 50%);
     background-position: right bottom;
     background-size: 200% 100%;
@@ -34,6 +35,7 @@
 }
 
 .button,
+.customer button,
 .button:not([disabled]):hover,
 .shopify-challenge__button:hover,
 .customer button:hover {
