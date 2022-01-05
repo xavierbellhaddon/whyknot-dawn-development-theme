@@ -78,70 +78,72 @@
         "mobile_content_alignment": "left"
       }
     },
-    "1640935251ba27cfda": {
-      "type": "rich-text",
+    "1641423817dfd71aeb": {
+      "type": "featured-product",
       "blocks": {
-        "16409352516b407c55-0": {
-          "type": "heading",
+        "1641423816fce11286-0": {
+          "type": "text",
           "settings": {
-            "heading": "Testimonials",
-            "heading_size": "h1"
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1641423816fce11286-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1641423816fce11286-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1641423816fce11286-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1641423816fce11286-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1641423816fce11286-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1641423816fce11286-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1641423816fce11286-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "16409352516b407c55-0"
+        "1641423816fce11286-0",
+        "1641423816fce11286-1",
+        "1641423816fce11286-2",
+        "1641423816fce11286-3",
+        "1641423816fce11286-4",
+        "1641423816fce11286-5",
+        "1641423816fce11286-6",
+        "1641423816fce11286-7"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "1640935188f3f5fc69": {
-      "type": "multicolumn",
-      "blocks": {
-        "16409351881557a7ab-0": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "16409351881557a7ab-1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "16409351881557a7ab-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16409351881557a7ab-0",
-        "16409351881557a7ab-1",
-        "16409351881557a7ab-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
+        "product": "honey-peppermint-conditioner",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     },
     "16409193350a0643c0": {
@@ -208,8 +210,7 @@
     "16409340524055311b",
     "1640935158da55d422",
     "1640919130431b8ef5",
-    "1640935251ba27cfda",
-    "1640935188f3f5fc69",
+    "1641423817dfd71aeb",
     "16409193350a0643c0",
     "16409688740af9094c",
     "1640934099c969db03"
