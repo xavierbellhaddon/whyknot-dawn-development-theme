@@ -8,8 +8,8 @@
     "colors_background_1": "#ffffff",
     "colors_background_2": "#F3F3F3",
     "type_header_font": "joanna_nova_n4",
-    "type_body_font": "assistant_n4",
-    "page_width": "1200",
+    "type_body_font": "roboto_n4",
+    "page_width": "1600",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
