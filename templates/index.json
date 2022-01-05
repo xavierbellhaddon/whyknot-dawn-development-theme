@@ -78,74 +78,6 @@
         "mobile_content_alignment": "left"
       }
     },
-    "1641423817dfd71aeb": {
-      "type": "featured-product",
-      "blocks": {
-        "1641423816fce11286-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "1641423816fce11286-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "1641423816fce11286-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "1641423816fce11286-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1641423816fce11286-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "1641423816fce11286-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "1641423816fce11286-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "1641423816fce11286-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "1641423816fce11286-0",
-        "1641423816fce11286-1",
-        "1641423816fce11286-2",
-        "1641423816fce11286-3",
-        "1641423816fce11286-4",
-        "1641423816fce11286-5",
-        "1641423816fce11286-6",
-        "1641423816fce11286-7"
-      ],
-      "settings": {
-        "product": "honey-peppermint-conditioner",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false
-      }
-    },
     "16409193350a0643c0": {
       "type": "image-with-text",
       "blocks": {
@@ -210,7 +142,6 @@
     "16409340524055311b",
     "1640935158da55d422",
     "1640919130431b8ef5",
-    "1641423817dfd71aeb",
     "16409193350a0643c0",
     "16409688740af9094c",
     "1640934099c969db03"
