@@ -18,6 +18,7 @@
     },
     "1640935158da55d422": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1640935158023be2d0-0": {
           "type": "heading",
@@ -76,6 +77,37 @@
         "content_layout": "no-overlap",
         "color_scheme": "accent-1",
         "mobile_content_alignment": "left"
+      }
+    },
+    "16414239201e12715b": {
+      "type": "newsletter",
+      "blocks": {
+        "164142392010e98cb1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter Signup"
+          }
+        },
+        "164142392010e98cb1-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to find out about our latest items.<\/p>"
+          }
+        },
+        "164142392010e98cb1-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "164142392010e98cb1-0",
+        "164142392010e98cb1-1",
+        "164142392010e98cb1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     },
     "16409193350a0643c0": {
@@ -142,6 +174,7 @@
     "16409340524055311b",
     "1640935158da55d422",
     "1640919130431b8ef5",
+    "16414239201e12715b",
     "16409193350a0643c0",
     "16409688740af9094c",
     "1640934099c969db03"
