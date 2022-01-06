@@ -17,6 +17,27 @@
     text-transform: uppercase;
 }
 
+.h1 {
+    text-transform: uppercase;
+}
+
+.field__input,
+.customer .field input {
+    border: 1px solid #929292;
+    box-shadow: none;
+}
+
+.field__input:hover,
+.field__input:focus,
+.customer .field input:hover,
+.customer .field input:focus {
+    box-shadow: 0 0 0 .1rem #929292;
+}
+
+.field__label,
+.customer .field label {
+    color: #b6b6b6;
+}
 
 .button,
 .customer button {
@@ -46,22 +67,8 @@
     text-transform: uppercase;
 }
 
-.field__input,
-.customer .field input {
-    border: 1px solid #929292;
-    box-shadow: none;
-}
-
-.field__input:hover,
-.field__input:focus,
-.customer .field input:hover,
-.customer .field input:focus {
-    box-shadow: 0 0 0 .1rem #929292;
-}
-
-.field__label,
-.customer .field label {
-    color: #b6b6b6;
+.contact .h1 {
+    text-align: center;
 }
 
 .contact__button .button {
@@ -81,3 +88,4 @@
 .our-story__text {
     margin-bottom: 3rem;
 }
+ 
