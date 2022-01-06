@@ -16,35 +16,6 @@
         "show_text_below": true
       }
     },
-    "1640935158da55d422": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "1640935158023be2d0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "1640935158023be2d0-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "View Products",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "1640935158023be2d0-0",
-        "1640935158023be2d0-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "1640919130431b8ef5": {
       "type": "image-with-text",
       "blocks": {
@@ -172,7 +143,6 @@
   },
   "order": [
     "16409340524055311b",
-    "1640935158da55d422",
     "1640919130431b8ef5",
     "16414239201e12715b",
     "16409193350a0643c0",
