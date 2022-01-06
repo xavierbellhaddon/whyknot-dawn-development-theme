@@ -17,6 +17,10 @@
     text-transform: uppercase;
 }
 
+.menu-drawer__menu-item {
+    text-transform: uppercase;
+}
+
 .h1 {
     text-transform: uppercase;
 }
@@ -89,3 +93,6 @@
     margin-bottom: 3rem;
 }
  
+.footer-block {
+    text-transform: uppercase;
+}
