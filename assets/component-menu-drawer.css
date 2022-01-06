@@ -256,10 +256,6 @@ details[open].menu-opening > .menu-drawer__submenu {
   text-decoration: underline;
 }
 
-.menu-drawer__menu-item--active:hover {
-  text-decoration-thickness: 0.2rem;
-}
-
 .menu-drawer__account {
   color: #ffffff;
   text-transform: uppercase;

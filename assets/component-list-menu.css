@@ -33,6 +33,7 @@
   text-decoration: underline;
 }
 
-.list-menu__item--active:hover {
+.list-menu__item--active:hover,
+.menu-drawer__menu-item--active:hover {
   text-decoration-thickness: 0.2rem;
 }
