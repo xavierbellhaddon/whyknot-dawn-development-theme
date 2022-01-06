@@ -1,3 +1,18 @@
+*:focus-visible,
+.focus-inset:focus-visible {
+    outline: 0.2rem solid #ffffff;
+}
+
+.focus-offset:focus-visible {
+    outline: 0.2rem solid #121212;
+}
+
+.focus-offset:focus-visible,
+.focus-inset:focus-visible {
+    box-shadow: none;
+}
+
+
 .header-wrapper {
     background-color: #121212;
 }
@@ -44,13 +59,19 @@
     color: #b6b6b6;
 }
 
+.button:focus-visible,
+.underlined-link:focus-visible {
+    box-shadow: none;
+    outline: 0.2rem solid #121212;
+}
+
 .button,
 .customer button {
     background: linear-gradient(to left, #ffffff 50%, #121212 50%);
     background-position: right bottom;
     background-size: 200% 100%;
     color: #121212;
-    transition: all 0.2s ease-in;
+    transition: background-position 0.2s ease-in;
 }
 
 .button:not([disabled]):hover,
@@ -96,4 +117,10 @@
  
 .footer-block {
     text-transform: uppercase;
+}
+
+.newsletter-form__button:focus-visible,
+.customer button:focus-visible {
+    outline: 0.2rem solid #121212;
+    box-shadow: none;
 }

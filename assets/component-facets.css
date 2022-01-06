@@ -866,3 +866,8 @@ input.mobile-facets__checkbox {
 .product-count__text.loading + .loading-overlay__spinner {
   display: block;
 }
+
+.facet-filters__sort:focus-visible {
+  outline: 0.2rem solid #121212;
+  box-shadow: none;
+}

@@ -323,3 +323,9 @@
     transition: background-color var(--duration-long) ease;
   }
 }
+
+/* custom CSS below */
+
+.card-wrapper .full-unstyled-link:focus-visible::after {
+  outline: 0.2rem solid #121212;
+  box-shadow: none;
