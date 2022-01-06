@@ -25,3 +25,14 @@
   width: 10rem;
   padding: 0.5rem;
 }
+
+/* custom CSS below */
+
+.list-menu__item:focus,
+.list-menu__item:hover {
+  text-decoration: underline;
+}
+
+.list-menu__item--active:hover {
+  text-decoration-thickness: 0.2rem;
+}
