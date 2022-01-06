@@ -144,25 +144,6 @@
         "mobile_content_alignment": "left"
       }
     },
-    "16409688740af9094c": {
-      "type": "rich-text",
-      "blocks": {
-        "1640968874d146cbaa-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contact Us",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "1640968874d146cbaa-0"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "1640934099c969db03": {
       "type": "contact-form",
       "settings": {
@@ -176,7 +157,6 @@
     "1640919130431b8ef5",
     "16414239201e12715b",
     "16409193350a0643c0",
-    "16409688740af9094c",
     "1640934099c969db03"
   ]
 }
