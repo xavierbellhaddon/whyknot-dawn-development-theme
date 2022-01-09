@@ -91,11 +91,11 @@
     <div class="contact__fields">
       <div class="field">
         <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" aria-required="true" placeholder="{{ 'templates.contact.form.name' | t }}">
-        <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}*</label>
+        <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }} *</label>
       </div>
       <div class="field">
         <input class="field__input" autocomplete="organization-title" type="text" id="ContactForm-title" name="contact[Title]" aria-required="true" placeholder="Title">
-        <label class="field__label" for="ContactForm-title">Title*</label>
+        <label class="field__label" for="ContactForm-title">Title *</label>
       </div>
       <div class="field field--with-error">
         <input
@@ -129,11 +129,11 @@
     </div>
     <div class="field">
       <input type="text" id="ContactForm-organization" class="field__input" autocomplete="organization" name="contact[organization]" aria-required="true" placeholder="Organization Name">
-      <label class="field__label" for="ContactForm-organization">Organization Name*</label>
+      <label class="field__label" for="ContactForm-organization">Organization Name *</label>
     </div>
     <div class="field">
       <input type="text" id="ContactForm-organization-type" class="field__input" name="contact[Organization Type]" aria-required="true" placeholder="Organization Type">
-      <label class="field__label" for="ContactForm-organization-type">Organization Type*</label>
+      <label class="field__label" for="ContactForm-organization-type">Organization Type *</label>
     </div>
     <div class="field">
       <input type="text" id="ContactForm-url" class="field__input" autocomplete="url" name="contact[URL]" placeholder="Website URL">
@@ -141,7 +141,7 @@
     </div>
     <div class="field">
       <input type="text" id="ContactForm-address-line1" class="field__input" autocomplete="address-line1" name="contact[Address Line 1]" aria-required="true" placeholder="Address Line 1">
-      <label class="field__label" for="ContactForm-address-line1">Address Line 1*</label>
+      <label class="field__label" for="ContactForm-address-line1">Address Line 1 *</label>
     </div>
     <div class="field">
       <input type="text" id="ContactForm-address-line2" class="field__input" autocomplete="address-line2" name="contact[Address Line 2]" placeholder="Address Line 2">
@@ -150,19 +150,19 @@
     <div class="contact__fields">
         <div class="field">
           <input type="text" id="ContactForm-city" class="field__input" autocomplete="address-level2" name="contact[City]" aria-required="true" placeholder="City">
-          <label class="field__label" for="ContactForm-city">City*</label>
+          <label class="field__label" for="ContactForm-city">City *</label>
         </div>
         <div class="field">
           <input type="text" id="ContactForm-address-level1" class="field__input" autocomplete="address-level1" name="contact[Address Level 1]" aria-required="true" placeholder="State/Province">
-          <label class="field__label" for="ContactForm-address-level1">State/Province*</label>
+          <label class="field__label" for="ContactForm-address-level1">State/Province *</label>
         </div>
         <div class="field">
           <input type="text" id="ContactForm-postal-code" class="field__input" autocomplete="postal-code" name="contact[Postal Code]" aria-required="true" placeholder="ZIP/Postal Code">
-          <label class="field__label" for="ContactForm-postal-code">ZIP/Postal Code*</label>
+          <label class="field__label" for="ContactForm-postal-code">ZIP/Postal Code *</label>
         </div>
         <div class="field">
           <input type="text" id="ContactForm-country" class="field__input" autocomplete="country-name" name="contact[Country]" aria-required="true" placeholder="Country">
-          <label class="field__label" for="ContactForm-country">Country*</label>
+          <label class="field__label" for="ContactForm-country">Country *</label>
         </div>
     </div>
     <div class="field">
