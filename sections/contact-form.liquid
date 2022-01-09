@@ -128,6 +128,10 @@
       <label class="field__label" for="ContactForm-url">Website URL</label>
     </div>
     <div class="field">
+      <input type="text" id="ContactForm-organization" class="field__input" autocomplete="organization" name="contact[organization]" aria-required="true" placeholder="Organization Name">
+      <label class="field__label" for="ContactForm-organization">Organization Name*</label>
+    </div>
+    <div class="field">
       <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
       <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
     </div>
