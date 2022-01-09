@@ -124,6 +124,10 @@
       </div>
     </div>
     <div class="field">
+      <input type="text" id="ContactForm-url" class="field__input" autocomplete="url" name="contact[URL]" placeholder="Website URL">
+      <label class="field__label" for="ContactForm-url">Website URL</label>
+    </div>
+    <div class="field">
       <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
       <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
     </div>
