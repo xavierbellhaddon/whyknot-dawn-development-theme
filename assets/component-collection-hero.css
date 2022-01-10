@@ -92,3 +92,12 @@
     min-height: 20rem;
   }
 }
+
+/* custom CSS below */
+
+.collection-hero__title {
+  font-size: calc(var(--font-heading-scale) * 5.2rem);
+  margin: calc(5rem + var(--page-width-margin)) 4rem 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}

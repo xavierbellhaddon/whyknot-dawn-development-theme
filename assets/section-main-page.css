@@ -21,3 +21,10 @@
   width: 52.5rem;
   height: 52.5rem;
 }
+
+/* custom CSS below */
+
+.main-page-title {
+  text-align: center;
+  text-transform: uppercase;
+}
