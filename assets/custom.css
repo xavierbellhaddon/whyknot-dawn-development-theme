@@ -12,14 +12,8 @@
     box-shadow: none;
 }
 
-
 .header-wrapper {
     background-color: #121212;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
 }
 
 .header__icon,
