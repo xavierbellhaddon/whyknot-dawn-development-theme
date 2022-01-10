@@ -97,7 +97,7 @@
 
 .collection-hero__title {
   font-size: calc(var(--font-heading-scale) * 5.2rem);
-  margin: calc(5rem + var(--page-width-margin)) 4rem 0 0;
+  margin: calc(5rem + var(--page-width-margin)) 0 4rem 0;
   text-align: center;
   text-transform: uppercase;
 }
