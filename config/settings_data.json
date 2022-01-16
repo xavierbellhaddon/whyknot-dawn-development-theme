@@ -26,7 +26,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 200,
+          "logo": "shopify:\/\/shop_images\/logo-light.png",
+          "logo_width": 250,
           "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": false,
