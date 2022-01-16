@@ -14,7 +14,7 @@
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_sidebar_background_color": "#f3f3f3",
-    "checkout_accent_color": "#5b391c",
+    "checkout_accent_color": "#121212",
     "checkout_button_color": "#121212",
     "sections": {
       "announcement-bar": {
@@ -26,7 +26,6 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/logo-white.png",
           "logo_width": 200,
           "logo_position": "top-center",
           "menu": "main-menu",
