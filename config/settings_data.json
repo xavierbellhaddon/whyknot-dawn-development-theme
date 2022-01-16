@@ -10,6 +10,12 @@
     "type_header_font": "joanna_nova_n4",
     "type_body_font": "roboto_n4",
     "page_width": "1600",
+    "checkout_logo_image": "shopify:\/\/shop_images\/checkout-logo.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#f3f3f3",
+    "checkout_accent_color": "#5b391c",
+    "checkout_button_color": "#121212",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
