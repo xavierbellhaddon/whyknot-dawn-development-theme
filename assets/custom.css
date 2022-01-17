@@ -26,10 +26,13 @@
     text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 .header__icon span {
     line-height: 0;
 }
 
+=======
+>>>>>>> 737d8c5418ed04c90a085e6ca3f3625a60c83ba3
 .cart-count-bubble {
   background-color: #e4743d;
 }
