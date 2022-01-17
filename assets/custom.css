@@ -26,6 +26,14 @@
     text-transform: uppercase;
 }
 
+.header__icon span {
+    line-height: 0;
+}
+
+.cart-count-bubble {
+  background-color: #e4743d;
+}
+
 .menu-drawer__menu-item {
     color: white;
     text-transform: uppercase;
