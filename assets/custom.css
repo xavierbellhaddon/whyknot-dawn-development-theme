@@ -26,6 +26,10 @@
     text-transform: uppercase;
 }
 
+.cart-count-bubble {
+  background-color: #e4743d;
+}
+
 .menu-drawer__menu-item {
     color: white;
     text-transform: uppercase;
